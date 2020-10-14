@@ -1,0 +1,19 @@
+{
+  "name": "test_aws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plaxe/test_aws.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plaxe/test_aws/issues"
+  },
+  "homepage": "https://github.com/plaxe/test_aws#readme"
+}
