@@ -14,7 +14,7 @@ router.get("/:state?", function (req, res, next) {
   res.render("index", {
     data: items,
     errors: req.flash("errors"),
-    menu: req.params.state || 'all',
+    menu: req.params.state || "all",
   });
 });
 
@@ -42,7 +42,7 @@ router.post("/add", function (req, res, next) {
     return;
   }
 
-  todos.push({ item: req.body.item, state: "progress", id: guid.v4() });
+  todos.push({ item: req.body.item, state: "progress", id: guid.v4(), date: new Date().toLocaleString("en-US", { timeZone: "Europe/Kiev" }) });
 
   _jsonFile.saveItems(todos);
   res.redirect("/progress");
