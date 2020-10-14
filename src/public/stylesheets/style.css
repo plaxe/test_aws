@@ -48,6 +48,13 @@ font-size:12px;
   background-color: #353d47;
 }
 
+.pull-left {
+  float:left;
+}
+
+.pull-right {
+  float:right;
+}
 /* .badge {
   border-radius: 2px !important;
   padding: 5px !important;
@@ -61,6 +68,10 @@ font-size:12px;
 .main-table .row div:first-child {
   text-align: justify;
   line-height: 1.2rem;
+}
+
+.main-nav {
+  font-size: 0.8rem;
 }
 
 .main-nav:first-child a {

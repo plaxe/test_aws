@@ -52,12 +52,12 @@
             {{#each data}}
             <div class="col-12 main-table mt-2">
                 <div class="row">
-                    <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12 text-table">
+                    <div class="col-lg-7 col-md-12 col-sm-12 col-12 text-table">
                         {{this.item}}
                     </div>
 
-                    <div class="col-lg-1 col-md-2 col-sm-2 col-3">
-                        <span class="badge
+                    <div class="col-lg-1 col-md-2 col-sm-2 col-5 ">
+                        <span class="pull-left badge
                             {{#if_eq this.state 'progress'}}
                                 badge-success 
                             {{/if_eq}}
@@ -70,23 +70,23 @@
                         "><span class="oi oi-layers"></span> &nbsp;{{this.state}} </span>
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-sm-4 col-3" style="padding-right: 0px;">
-                        <span class="badge badge-secondary">{{this.date}}</span>
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-7">
+                        <span class="badge badge-secondary pull-right">{{this.date}}</span>
                     </div>
 
-                    <div class="col-lg-2 col-md-6 col-sm-6 col-6">
-                        <a href="/update/{{this.id}}" class="btn btn-xs btn-info act edit-act" style="float:right;">
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-12 mt-1">
+                        <a href="/update/{{this.id}}" class="btn btn-xs btn-info act edit-act pull-right">
                             <span class="oi oi-pencil"></span>
                         </a>
 
-                        <form action="/set-state/{{this.id}}" method="POST" style="float:right;">
+                        <form action="/set-state/{{this.id}}" method="POST" class="pull-right">
                             <input type="hidden" value="removed" name="state">
                             <button class="btn btn-xs btn-danger act" type="submit">
                                 <span class="oi oi-x"></span>
                             </button>
                         </form>
 
-                        <form action="/set-state/{{this.id}}" method="POST" style="float:right;">
+                        <form action="/set-state/{{this.id}}" method="POST" class="pull-right">
                             <input type="hidden" value="done" name="state">
                             <button class="btn btn-xs btn-success act"><span class="oi oi-check"></span></button>
                         </form>
