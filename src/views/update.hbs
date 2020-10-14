@@ -1,0 +1,10 @@
+<div class="row text-center">
+    <div class="col-md-12 col-lg-12 col-12 mt-5">
+        <form method="POST" action="/update">
+            <input type="hidden" name="id" value="{{id}}">
+            <label for="text" class="sr-only">item text</label>
+            <textarea id="text" name="text" class="form-control mb-2" placeholder="text" rows="10">{{text}}</textarea>
+            <button class="btn btn btn-success btn-block" type="submit">Update</button>           
+        </form>
+    </div>
+</div>

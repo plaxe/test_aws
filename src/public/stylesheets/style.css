@@ -1,0 +1,126 @@
+body {
+  padding: 50px;
+  font-size: 0.85rem !important;
+}
+
+.success-h {
+  color:#52b36a;
+}
+
+.badge {
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  font-size: 0.55rem !important;
+}
+
+.badge-success {  
+  background-color: #3db35a !important;
+}
+
+.badge-secondary {
+  color:#9cd3aa !important;
+  background-color: #28303a !important;
+  border: 1px solid #4f5964;
+}
+.icon-txt {
+font-size:12px;
+}
+.container {
+  padding-top:20px;
+}
+
+.container {
+  background-color: #323a45;
+}
+
+.act {
+  margin-right: 2px;
+}
+
+.edit-act {
+  /* margin-top: 2px; */
+}
+
+.main-table {
+  border: 1px solid #325a44;
+  color: rgb(228, 228, 228);
+  padding: 3px;
+  border-radius: 2px;
+  background-color: #353d47;
+}
+
+/* .badge {
+  border-radius: 2px !important;
+  padding: 5px !important;
+} */
+
+.text-table {
+  word-wrap: break-word;
+  margin-bottom: 5px;
+}
+
+.main-table .row div:first-child {
+  text-align: justify;
+  line-height: 1.2rem;
+}
+
+.main-nav:first-child a {
+  padding-left: 0px;
+}
+
+.nav-link {
+  color:rgb(209, 209, 209);
+}
+
+a.active {
+  color:#52b36a;
+}
+
+
+a:hover {
+  color:#347544 !important;
+}
+
+.btn-xs {
+  padding: 0.15rem 0.5rem !important;
+  font-size: 0.805rem !important;
+  line-height: 1.4 !important;
+  border-radius: 0.2rem !important;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #3db35a !important;
+  border-color: #52b36a !important;
+}
+
+.btn-success:hover {
+  color: #fff;
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.btn-success:focus, .btn-success.focus {
+  color: #fff;
+  background-color: #218838;
+  border-color: #1e7e34;
+  box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
+}
+
+input[type="color"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+select:focus,
+textarea {
+  font-size: 16px !important;
+}
